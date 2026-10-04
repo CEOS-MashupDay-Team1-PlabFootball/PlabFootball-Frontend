@@ -94,11 +94,80 @@
   --color-bg-layer-default: var(--color-gray-00);
   --color-bg-layer-floating: var(--color-gray-00);
   --color-bg-layer-overlaid: rgb(0 0 0 / 0.4);
+
+
+  /* Semantic: Appearance - radius */
+  --radius-small: 8px;
+  --radius-medium: 12px;
+  --radius-large: 16px;
+  --radius-full: 99px;
+}
   
 
 }
 
 body {
+@utility typo-head-large-sb {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: -0.1px;
+}
+@utility typo-head-large-md {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 140%;
+  letter-spacing: -0.1px;
+}
+@utility typo-body-large-sb {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: -0.1px;
+}
+@utility typo-body-medium-sb {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: -0.1px;
+}
+@utility typo-body-medium-md {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 140%;
+  letter-spacing: -0.1px;
+}
+@utility typo-body-small-md {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 140%;
+  letter-spacing: -0.1px;
+}
+@utility typo-label-small-sb {
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: -0.1px;
+}
+@utility typo-button-large-md {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 140%;
+  letter-spacing: -0.1px;
+}
+@utility typo-button-medium-md {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 140%;
+  letter-spacing: -0.1px;
+}
+@utility typo-button-small-md {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 140%;
+  letter-spacing: -0.1px;
+}
+
   margin: 0;
   background-color: #f3f4f6;
   color: #111827;
