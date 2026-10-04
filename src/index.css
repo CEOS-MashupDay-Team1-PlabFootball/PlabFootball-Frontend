@@ -50,6 +50,52 @@
   --color-gray-50: #f7f8f8;
   --color-gray-00: #ffffff;
   --color-static-black: #000000;
+
+  
+  /* Semantic: Color - fg (글자, 아이콘) */
+  --color-fg-neutral-default: var(--color-gray-1000);
+  --color-fg-neutral-muted: var(--color-gray-700);
+  --color-fg-neutral-subtle: var(--color-gray-400);
+  --color-fg-neutral-weak: var(--color-gray-200);
+  --color-fg-neutral-inverse: var(--color-gray-00);
+  --color-fg-neutral-error: var(--color-red-600);
+  --color-fg-brand-contrast: var(--color-brand-900);
+  --color-fg-brand-strong: var(--color-brand-700);
+  --color-fg-brand-default: var(--color-brand-300);
+  --color-fg-accent-favorite: var(--color-red-500);
+  --color-fg-accent-info-red: var(--color-red-500);
+  --color-fg-accent-info-blue: var(--color-blue-600);
+  --color-fg-accent-info-green: var(--color-brand-700);
+  --color-fg-accent-calendar-red: var(--color-red-400);
+  --color-fg-accent-calendar-blue: var(--color-blue-500);
+
+  /* Semantic: Color - border (테두리) */
+  --color-border-default: var(--color-gray-200);
+  --color-border-weak: var(--color-gray-100);
+  --color-border-focus: var(--color-brand-700);
+  --color-border-error: var(--color-red-500);
+
+  /* Semantic: Color - bg (배경) */
+  --color-bg-neutral-default: var(--color-gray-00);
+  --color-bg-neutral-weak: var(--color-gray-50);
+  --color-bg-neutral-subtle: var(--color-gray-100);
+  --color-bg-neutral-subtle-pressed: var(--color-gray-200);
+  --color-bg-neutral-solid: var(--color-gray-1000);
+  --color-bg-neutral-inverse: var(--color-gray-1000);
+  --color-bg-neutral-transparent: transparent;
+  --color-bg-neutral-transparent-pressed: var(--color-gray-100);
+  --color-bg-brand-weak: var(--color-brand-50);
+  --color-bg-brand-subtle: var(--color-brand-200);
+  --color-bg-brand-default: var(--color-brand-300);
+  --color-bg-brand-default-pressed: var(--color-brand-500);
+  --color-bg-accent-blue-weak: var(--color-blue-50);
+  --color-bg-accent-red-weak: var(--color-red-50);
+  --color-bg-accent-green-weak: var(--color-brand-50);
+  --color-bg-layer-default: var(--color-gray-00);
+  --color-bg-layer-floating: var(--color-gray-00);
+  --color-bg-layer-overlaid: rgb(0 0 0 / 0.4);
+  
+
 }
 
 body {
