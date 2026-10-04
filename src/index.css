@@ -102,11 +102,8 @@
   --radius-large: 16px;
   --radius-full: 99px;
 }
-  
 
-}
-
-body {
+ /* Text Styles */
 @utility typo-head-large-sb {
   font-size: 18px;
   font-weight: 600;
@@ -168,6 +165,7 @@ body {
   letter-spacing: -0.1px;
 }
 
+body {
   margin: 0;
   background-color: #f3f4f6;
   color: #111827;
