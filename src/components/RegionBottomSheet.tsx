@@ -17,7 +17,7 @@ type RegionBottomSheetProps = {
 };
 
 function cityLabel(name: string) {
-  return name.replace(/(특별자치시|특별자치도|특별시|광역시|도)$/, '');
+  return name.replace(/(특별자치시|특별자치도|특별시|광역시)$/, '');
 }
 
 function RegionBottomSheet({ open, onClose, onApply }: RegionBottomSheetProps) {
